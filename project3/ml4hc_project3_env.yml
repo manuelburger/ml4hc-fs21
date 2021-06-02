@@ -1,0 +1,39 @@
+name: ml4hc_proj3_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fasttext
+  - gensim
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - jupyter_server
+  - jupyterlab
+  - jupyterlab_server
+  - nb_conda_kernels
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - python=3.7.10
+  - scikit-learn
+  - scipy
+  - seaborn
+  - tqdm
+  - keras-gpu
+  - matplotlib
+  - nltk
+  - spacy
+  - tensorboard
+  - xgboost
+  - pip:
+          - fasttext-wheel
+          - transformers
+          - tensorflow_addons
+          - tensorflow==2.4.0
+          - wandb
+          - tensorflow_hub
+          - tensorflow_text
+          - tf-models-official
+          - livelossplot
