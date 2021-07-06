@@ -13,3 +13,6 @@ DNA splice site prediction
 ## Project 3
 Sequential sentence classification on PubMed 200k RCT
 
+## Project 4
+ECG time series data classification
+
